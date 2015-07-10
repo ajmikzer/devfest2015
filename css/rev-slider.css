@@ -1,0 +1,235 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:    1.0
+date:       07/27/11
+author:   themepunch
+email:      support@themepunch.com
+website:    http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+.boxedcontainer   { max-width: 1170px; margin:auto; padding:0px 30px;}
+
+/*********************************************
+  - SETTINGS FOR BANNER CONTAINERS  -
+**********************************************/
+
+.tp-banner-container{
+  width:100%;
+  position:relative;
+  padding:0;
+}
+
+.tp-banner{
+  width:100%;
+  position:relative;
+}
+
+.tp-banner-fullscreen-container {
+  width:100%;
+  position:relative;
+  padding:0;
+}
+
+/*************************
+  - CAPTIONS  -
+**************************/
+
+.tp-static-layers { position:absolute; z-index:505; top:0px;left:0px}
+
+.tp-hide-revslider,.tp-caption.tp-hidden-caption  { visibility:hidden !important; display:none !important}
+
+.tp-caption { z-index:1; white-space:nowrap}
+
+.tp-caption-demo .tp-caption  { position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important}
+
+/*Slide-1*/
+
+.tp-caption.very_big_white {
+position:absolute;
+color:#fff;
+text-shadow:none;
+font-weight:800;
+font-size:80px;
+line-height:60px;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+letter-spacing: 0.025em;
+margin:0px;
+border-width:0px;
+border-style:none;
+white-space:nowrap;
+padding:0px 4px;
+padding-top:1px;
+}
+
+.tp-caption.medium_text {
+position:absolute;
+color:#fff;
+font-weight:400;
+font-size:22px;
+line-height:20px;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+margin:0px;
+border-width:0px;
+border-style:none;
+white-space:nowrap;
+}
+
+.largebtn {  
+font-family: "Varela Round", Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+color: #fff !important;
+text-decoration: none;
+text-align: center;
+padding: 13px 45px;
+background: transparent;
+border: 2px solid #fff;
+border-radius: 50px;
+margin-right: 1px !important;
+}
+
+.largebtn:hover {
+background: #1dcfd1;
+border: 2px solid #1dcfd1;
+transition: all 0.1s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-webkit-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+}
+
+/*Slide-2*/
+
+.tp-caption.white_heavy_60 {
+font-size:80px;
+line-height:60px;
+font-weight:800;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.tp-caption.black_thin_blackbg_30 {
+font-size:30px;
+line-height:30px;
+font-weight:800;
+font-family:"Lato", Helvetica, Arial, sans-serif;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+.largebtn.solid {  
+font-family: "Varela Round", Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 50px;
+color: #fff !important;
+text-decoration: none;
+text-align: center;
+padding: 13px 45px;
+background: #1dcfd1;
+border: 2px solid #1dcfd1;
+border-radius: 50px;
+margin-right: 1px;
+}
+
+.largebtn.solid:hover {
+background: #1b1c1f;
+border: 2px solid #1b1c1f;
+transition: all 0.1s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-webkit-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+}
+
+/*Slide-3*/
+
+.tp-caption.big_100_white {
+font-size:100px;
+line-height:60px;
+font-weight:800;
+font-family: "Lato", Helvetica, Arial, sans-serif;
+color:rgb(255, 255, 255);
+text-decoration:none;
+background-color:transparent;
+text-shadow:none;
+border-width:0px;
+border-color:rgb(0, 0, 0);
+border-style:none;
+}
+
+/*Onepage*/
+
+.tp-caption.huge_white {
+position:absolute;
+color:#fff;
+text-shadow:none;
+font-weight:700;
+font-size:70px;
+line-height:60px;
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+letter-spacing: 0.025em;
+margin:0px;
+border-width:0px;
+border-style:none;
+white-space:nowrap;
+padding:0px 4px;
+padding-top:1px;
+text-transform: uppercase;
+}
+
+.tp-caption.medium_text {
+color: #fff;
+font-size: 30px;
+font-weight: 100;
+font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.slider-bullet {
+  color: #1dcfd1;
+  margin: 0 10px;
+}
+
+.tp-static-layers {
+  z-index: 50 !important;
+}
+
+.tp-caption.scroll-down {
+  font-size: 36px !important;
+  width: 52px !important;
+  height: 52px !important;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center !important;
+  padding: 5px 1px 0 0 !important;
+  line-height: 36px !important;
+  z-index: 2 !important;
+}
+
+.scroll-down a {
+  line-height: 36px !important;
+}
+
+.scroll-down i {
+  color: #3f51b5;
+}
+
+.tp-caption a {
+  color: #fff !important;
+}
+
+/*End Onepage*/
