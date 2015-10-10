@@ -129,7 +129,7 @@ $(document).ready(function(){
     var owl = $("#owl-testimonials");
     owl.owlCarousel({
 
-	  items: 2,
+	  items: 5,
 	  itemsDesktop: [1199,2],
 	  itemsDesktopSmall: [979,1],
 	  itemsTablet: [768,1],
