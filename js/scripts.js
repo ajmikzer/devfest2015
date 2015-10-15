@@ -20,17 +20,7 @@ $(document).ready(function(){
 
 		});
 
-		// Masonry
-		var $container = $('.masonry');
-        $container.imagesLoaded( function() {
-        	$container.isotope({
-        		itemSelector: '.masonry-item',
-				layoutMode: 'masonry',
-				resizesContainer:false,
-				percentPosition: true,
-				masonry: { columnWidth: '.work-img', gutter: 6 }
-			});
-		});
+	
 
 		// Trigger Resize
 		$(window).trigger("resize");
